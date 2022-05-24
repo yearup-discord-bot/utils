@@ -33,6 +33,4 @@ function main()
 
 COMMITSBEHIND=0
 
-main COMMITSBEHIND >> "../logs/$(date +%m-%d-%y).log" 2>&1
-
-	
+main COMMITSBEHIND
